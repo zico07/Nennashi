@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+    <PreferenceCategory android:title="表示フィルタ">
+        <CheckBoxPreference android:title="全て表示" android:selectable="true" android:defaultValue="true" android:enabled="true"  android:key="datedispchk"/>
+        <com.nennashi.action.DateConditionPreference android:key="datecondition" android:title="日付で絞る" android:enabled="false"/>
+    </PreferenceCategory>
+    <PreferenceCategory android:title="お気に入り天気">
+        <ListPreference android:key="areaList" android:title="都道府県" android:entries="@array/area_spinner"  android:entryValues="@array/area_spinner" />
+        <ListPreference android:key="cityList" android:title="エリア" />
+    </PreferenceCategory>
+</PreferenceScreen>

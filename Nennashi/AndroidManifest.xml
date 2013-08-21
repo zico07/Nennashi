@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.nennashi"
+    android:versionCode="8" android:versionName="2.5">
+
+    <uses-sdk android:minSdkVersion="7" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <application
+        android:label="年無釣行記"  android:icon="@drawable/ic_launcher">
+        <activity
+            android:name=".action.MainActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".action.EditActivity"  android:configChanges="keyboardHidden|orientation">>
+        </activity>
+         <activity android:name=".action.EditMainActivity" >
+        </activity>
+        <activity android:name=".action.Edit1Activity"  android:configChanges="keyboardHidden|orientation">>
+        </activity>
+        <activity android:name=".action.Edit2Activity"  android:configChanges="keyboardHidden|orientation">>
+        </activity>
+        <activity android:name=".action.ViewActivity" >
+        </activity>
+        <activity android:name=".action.ImageViewActivity" >
+        </activity>
+        <activity android:name=".action.SettingsPreference" >
+        </activity>
+        <activity android:name=".action.WaveActivityOLD" android:configChanges="keyboardHidden|orientation">
+        </activity>
+        <activity android:name=".action.WaveActivity" android:configChanges="keyboardHidden|orientation">
+        </activity>
+        <activity android:name=".action.WeatherActivity"  android:configChanges="keyboardHidden|orientation">
+        </activity>
+        <activity android:name=".action.TackleBoxActivity" >
+        </activity>
+        <activity android:name=".action.TackleViewActivity" >
+        </activity>
+    </application>
+</manifest>

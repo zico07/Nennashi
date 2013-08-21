@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/content1" android:layout_width="fill_parent"
+	android:layout_height="wrap_content">
+
+	<LinearLayout
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:background="@drawable/back"
+	    android:orientation="vertical" >
+
+		<RelativeLayout android:layout_width="fill_parent"
+			android:layout_height="wrap_content" android:gravity="center_vertical">
+
+			<Button android:id="@+id/datebutton" style="?android:attr/buttonStyleSmall"
+				android:layout_width="150dp" android:layout_height="wrap_content"
+				android:layout_marginLeft="30dp" android:text="@string/edit_date_btn"
+				android:textSize="20dp" />
+
+			<Button android:id="@+id/timebutton" style="?android:attr/buttonStyleSmall"
+				android:layout_width="110dp" android:layout_height="wrap_content"
+				android:layout_marginLeft="190dp" android:text="@string/edit_time_btn"
+				android:textSize="20dp" />
+		</RelativeLayout>
+
+		<RelativeLayout android:layout_width="fill_parent"
+			android:layout_height="wrap_content" android:gravity="center_vertical">
+
+			<TextView android:id="@+id/textView2" android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:layout_marginTop="10dp"
+				android:text="@string/edit_place_txt" android:textAppearance="?android:attr/textAppearanceMedium"
+				android:textColor="#000000" />
+
+			<EditText android:id="@+id/placeText" android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:layout_marginLeft="70dp"
+				android:ems="11" android:inputType="text" android:maxLength="20" />
+		</RelativeLayout>
+
+		<RelativeLayout android:id="@+id/relativeLayout1"
+			android:layout_width="fill_parent" android:layout_height="wrap_content">
+
+			<TextView android:id="@+id/textView3" android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:layout_marginTop="10dp"
+				android:text="@string/edit_size_txt" android:textAppearance="?android:attr/textAppearanceMedium"
+				android:textColor="#000000" />
+
+			<EditText android:id="@+id/sizeText" android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:layout_marginLeft="70dp"
+				android:ems="4" android:inputType="numberDecimal" android:maxLength="6"
+				android:maxLines="1" />
+
+			<TextView android:id="@+id/textView4" android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:layout_marginLeft="160dp"
+				android:layout_marginTop="25dp" android:text="@string/edit_cm_txt"
+				android:textAppearance="?android:attr/textAppearanceSmall"
+				android:textColor="#000000" />
+		</RelativeLayout>
+
+		<ImageButton android:id="@+id/cameraButton"
+			android:layout_width="54dp" android:layout_height="52dp"
+			android:src="@android:drawable/ic_menu_camera" />
+
+		<ImageView android:id="@+id/image" android:layout_width="280dp"
+			android:layout_height="280dp" android:layout_gravity="center"
+			android:background="#000000" android:clickable="true"
+			android:minHeight="280dp" android:minWidth="280dp" />
+		<TextView android:id="@+id/textViewDmy" android:layout_width="wrap_content"
+				android:layout_height="wrap_content"  android:textAppearance="?android:attr/textAppearanceMedium" />
+	</LinearLayout>
+</ScrollView>

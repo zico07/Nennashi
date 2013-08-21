@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+     android:background="#87CEFA"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <Spinner
+            android:id="@+id/areaSpinner"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:entries="@array/area_spinner" />
+    </LinearLayout>
+     <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+                <Spinner
+            android:id="@+id/areaDetailSpinner"
+            android:layout_width="280dp"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/weatherlistView"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+    </ListView>
+</LinearLayout>

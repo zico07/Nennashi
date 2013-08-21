@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/content2" android:layout_width="fill_parent"
+	android:layout_height="wrap_content">
+
+	<LinearLayout android:id="@+id/content3"
+		android:layout_width="fill_parent" android:layout_height="wrap_content"
+		android:background="@drawable/back" android:orientation="vertical">
+
+		<RelativeLayout
+		    android:layout_width="fill_parent"
+		    android:layout_height="40dp"
+		    android:layout_marginTop="10dp" >
+
+			<TextView android:id="@+id/favorittextView"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"
+				android:layout_gravity="center_horizontal" android:layout_marginTop="10dp"
+				android:text="@string/edit_favorite_txt" android:textAppearance="?android:attr/textAppearanceMedium"
+				android:textColor="#000000" />
+
+			<Button android:id="@+id/favorit1button" style="?android:attr/buttonStyleSmall"
+				android:layout_width="65dp" android:layout_height="fill_parent"
+				android:layout_marginLeft="170dp" android:text="@string/edit_favorit1_btn" />
+
+			<Button android:id="@+id/favorit2button" style="?android:attr/buttonStyleSmall"
+				android:layout_width="65dp" android:layout_height="fill_parent"
+				android:layout_marginLeft="245dp" android:text="@string/edit_favorit2_btn" />
+		</RelativeLayout>
+
+		<RelativeLayout android:layout_width="fill_parent"
+			android:layout_height="wrap_content">
+
+			<TextView android:id="@+id/rodtextView"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"
+				android:layout_gravity="center_horizontal" android:layout_marginTop="10dp"
+				android:text="@string/edit_rod_txt" android:textAppearance="?android:attr/textAppearanceMedium"
+				android:textColor="#000000" />
+
+			<Spinner android:id="@+id/rodspinner" android:layout_width="250dp"
+				android:layout_marginTop="3dp" android:layout_height="wrap_content"
+				android:layout_marginLeft="70dp"
+				android:entries="@array/float_spinner" />
+
+		</RelativeLayout>
+
+		<RelativeLayout android:layout_width="fill_parent"
+			android:layout_height="wrap_content">
+
+			<TextView android:id="@+id/reeltextView"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"
+				android:layout_marginTop="10dp" android:text="@string/edit_reel_txt"
+				android:textAppearance="?android:attr/textAppearanceMedium"
+				android:textColor="#000000" />
+
+			<Spinner android:id="@+id/reelspinner" android:layout_width="250dp"
+				android:layout_marginTop="3dp" android:layout_height="wrap_content"
+				android:layout_marginLeft="70dp"
+				android:entries="@array/float_spinner" />
+		</RelativeLayout>
+
+		<RelativeLayout android:layout_width="fill_parent"
+			android:layout_height="wrap_content">
+
+			<TextView android:id="@+id/floattextView"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"
+				android:layout_marginTop="10dp" android:text="@string/edit_float_txt"
+				android:textAppearance="?android:attr/textAppearanceMedium"
+				android:textColor="#000000" />
+
+			<Spinner android:id="@+id/floatnamespinner" android:layout_width="250dp"
+				android:layout_marginTop="3dp" android:layout_height="wrap_content"
+				android:layout_marginLeft="70dp"
+				android:entries="@array/float_spinner" />
+		</RelativeLayout>
+
+		<RelativeLayout android:layout_width="fill_parent"
+			android:layout_height="wrap_content">
+
+			<Spinner android:id="@+id/floatspinner" android:layout_width="150dp"
+				android:layout_height="wrap_content" android:layout_marginLeft="70dp"
+				android:entries="@array/float_spinner" />
+		</RelativeLayout>
+
+		<RelativeLayout android:layout_width="fill_parent"
+			android:layout_height="wrap_content">
+
+			<TextView android:id="@+id/linetextView"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"
+				android:layout_marginTop="10dp" android:text="@string/edit_line_txt"
+				android:textAppearance="?android:attr/textAppearanceMedium"
+				android:textColor="#000000" />
+
+			<Spinner android:id="@+id/linespinner" android:layout_width="250dp"
+				android:layout_marginTop="3dp" android:layout_height="wrap_content"
+				android:layout_marginLeft="70dp"
+				android:entries="@array/float_spinner" />
+		</RelativeLayout>
+
+		<RelativeLayout android:layout_width="fill_parent"
+			android:layout_height="wrap_content">
+
+			<TextView android:id="@+id/fooklinetextView"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"
+				android:layout_marginTop="10dp" android:text="@string/edit_fookline_txt"
+				android:textAppearance="?android:attr/textAppearanceMedium"
+				android:textColor="#000000" />
+
+			<Spinner android:id="@+id/fooklinespinner" android:layout_width="250dp"
+				android:layout_marginTop="3dp" android:layout_height="wrap_content"
+				android:layout_marginLeft="70dp"
+				android:entries="@array/float_spinner" />
+
+		</RelativeLayout>
+
+		<RelativeLayout android:layout_width="fill_parent"
+			android:layout_height="wrap_content">
+
+			<TextView android:id="@+id/fooktextView"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"
+				android:layout_marginTop="10dp" android:text="@string/edit_fook_txt"
+				android:textAppearance="?android:attr/textAppearanceMedium"
+				android:textColor="#000000" />
+
+			<Spinner android:id="@+id/fookspinner" android:layout_width="150dp"
+				android:layout_height="wrap_content" android:layout_marginLeft="70dp"
+				android:entries="@array/fook_spinner" />
+		</RelativeLayout>
+
+		<RelativeLayout android:layout_width="fill_parent"
+			android:layout_height="wrap_content">
+
+			<TextView android:id="@+id/komasetextView"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"
+				android:layout_marginTop="10dp" android:text="@string/edit_komase_txt"
+				android:textAppearance="?android:attr/textAppearanceMedium"
+				android:textColor="#000000" />
+
+			<Spinner android:id="@+id/komase1spinner" android:layout_width="250dp"
+				android:layout_height="wrap_content" android:layout_marginLeft="70dp"
+				android:entries="@array/fook_spinner" />
+		</RelativeLayout>
+
+		<RelativeLayout android:layout_width="fill_parent"
+			android:layout_height="wrap_content">
+
+			<Spinner android:id="@+id/komase2spinner" android:layout_width="250dp"
+				android:layout_height="wrap_content" android:layout_marginLeft="70dp"
+				android:entries="@array/fook_spinner" />
+		</RelativeLayout>
+
+		<RelativeLayout android:layout_width="fill_parent"
+			android:layout_height="wrap_content">
+
+			<TextView android:id="@+id/okiamitextView"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"
+				android:layout_marginTop="10dp" android:text="@string/edit_okiami_txt"
+				android:textAppearance="?android:attr/textAppearanceMedium"
+				android:textColor="#000000" />
+
+			<EditText android:id="@+id/okiamiText" android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:layout_marginLeft="85dp"
+				android:ems="3" android:inputType="numberDecimal" android:maxLength="4"
+				android:maxLines="1" />
+
+
+			<TextView android:id="@+id/kgtextView" android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:layout_marginLeft="155dp"
+				android:layout_marginTop="15dp" android:text="@string/edit_kg_txt"
+				android:textColor="#000000" android:textSize="15dp" />
+		</RelativeLayout>
+
+		<RelativeLayout android:layout_width="fill_parent"
+			android:layout_height="wrap_content">
+
+			<TextView android:id="@+id/esatextView"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"
+				android:layout_marginTop="10dp" android:text="@string/edit_esa_txt"
+				android:textAppearance="?android:attr/textAppearanceMedium"
+				android:textColor="#000000" />
+
+			<EditText android:id="@+id/esaText" android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:layout_marginLeft="70dp"
+				android:ems="11" android:inputType="text" android:maxLength="20" />
+
+		</RelativeLayout>
+
+		<RelativeLayout android:layout_width="fill_parent"
+			android:layout_height="wrap_content">
+
+			<TextView android:id="@+id/memotextView"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"
+				android:layout_marginTop="10dp" android:text="@string/edit_memo_txt"
+				android:textAppearance="?android:attr/textAppearanceMedium"
+				android:textColor="#000000" />
+
+			<EditText android:id="@+id/memoText" android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:layout_marginLeft="70dp"
+				android:ems="11" android:inputType="text" android:maxLength="30" />
+
+		</RelativeLayout>
+	</LinearLayout>
+</ScrollView>

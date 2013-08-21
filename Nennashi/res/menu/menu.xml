@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/menu_asc_date"
+        android:title="古い順で並び替え">
+    </item>
+    <item
+        android:id="@+id/menu_desc_date"
+        android:title="新しい順で並び替え">
+    </item>
+    <item
+        android:id="@+id/menu_regist"
+        android:icon="@android:drawable/ic_menu_add"
+        android:title="保存">
+    </item>
+    <item
+        android:id="@+id/menu_del"
+        android:icon="@android:drawable/ic_menu_delete"
+        android:title="削除">
+    </item>
+    <item
+        android:id="@+id/menu_copy"
+        android:icon="@android:drawable/ic_menu_rotate"
+        android:title="コピー">
+    </item>
+    <item
+        android:id="@+id/menu_preference"
+        android:icon="@android:drawable/ic_menu_manage"
+        android:title="設定">
+    </item>
+     <item
+        android:id="@+id/menu_exit"
+        android:icon="@android:drawable/ic_menu_close_clear_cancel"
+        android:title="アプリ終了">
+    </item>
+</menu>

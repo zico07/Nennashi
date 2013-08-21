@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/top"
+    android:orientation="vertical" >
+
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/logo_main" />
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="80dp"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/viewbutton"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_marginLeft="30dp"
+                android:layout_toLeftOf="@+id/dummytextView1"
+                android:drawableTop="@drawable/icon_view"
+                android:text="@string/main_view_btn"
+                android:textColor="#FFFFFF"
+                android:textSize="15dp" />
+
+            <TextView
+                android:id="@+id/dummytextView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_marginTop="28dp" />
+
+            <Button
+                android:id="@+id/createbutton"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_marginLeft="10dp"
+                android:layout_toRightOf="@+id/dummytextView1"
+                android:drawableTop="@drawable/icon_edit"
+                android:text="@string/main_edit_btn"
+                android:textColor="#FFFFFF"
+                android:textSize="15dp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/wavebutton"
+                android:layout_width="120dp"
+                android:layout_height="110dp"
+                android:layout_marginLeft="30dp"
+                android:layout_toLeftOf="@+id/dummytextView2"
+                android:drawableTop="@drawable/icon_wave"
+                android:text="@string/main_wave_btn"
+                android:textColor="#FFFFFF"
+                android:textSize="15dp" />
+
+            <TextView
+                android:id="@+id/dummytextView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_marginTop="28dp" />
+
+            <Button
+                android:id="@+id/weatherbutton"
+                android:layout_width="120dp"
+                android:layout_height="110dp"
+                android:layout_marginLeft="10dp"
+                android:layout_toRightOf="@+id/dummytextView2"
+                android:drawableTop="@drawable/icon_weather"
+                android:text="@string/main_weather_btn"
+                android:textColor="#FFFFFF"
+                android:textSize="15dp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/tackleboxbutton"
+                android:layout_width="120dp"
+                android:layout_height="110dp"
+                android:layout_marginLeft="30dp"
+                android:layout_toLeftOf="@+id/dummytextView3"
+                android:drawableTop="@drawable/icon_tackle"
+                android:text="@string/main_tacklebox_btn"
+                android:textColor="#FFFFFF"
+                android:textSize="15dp" />
+
+            <TextView
+                android:id="@+id/dummytextView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_marginTop="28dp" />
+
+            <Button
+                android:id="@+id/dummybutton"
+                android:layout_width="120dp"
+                android:layout_height="110dp"
+                android:layout_marginLeft="10dp"
+                android:layout_toRightOf="@+id/dummytextView3"
+                android:drawableTop="@drawable/icon_weather"
+                android:text="@string/main_weather_btn"
+                android:textColor="#FFFFFF"
+                android:textSize="15dp"
+                android:visibility="invisible" />
+        </RelativeLayout>
+</LinearLayout>
